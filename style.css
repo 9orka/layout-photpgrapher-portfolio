@@ -29,6 +29,21 @@ ul {
     margin-top: -75px;
 }
 
+.mnu_mob {
+    color: white;
+    font-size: 24px;
+    margin-top: -75px;
+    margin-left: 90%;
+    position: absolute;
+    list-style: none;
+    display: none;
+    cursor: pointer;
+}
+
+.mnu_mob:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -213,6 +228,15 @@ input[type="submit"]:active {
 }
 
 @media screen and (max-width:1020px) {
+    .mnu {
+        display: none;
+    }
+    li {
+        float: none;
+    }
+    .mnu_mob {
+        display: inline-block;
+    }
     .portfolio-content {
         margin: 10 auto;
         flex-direction: column;
