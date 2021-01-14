@@ -1,0 +1,9 @@
+            @media (max-width:1500px) {
+                ul {
+                    list-style: none;
+                    margin-bottom: 50px;
+                    margin-left: 30%;
+                    padding-top: 0;
+                    margin-top: -75px;
+                }
+            }
